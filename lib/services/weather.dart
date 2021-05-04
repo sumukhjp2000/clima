@@ -2,7 +2,7 @@ import 'package:clima/services/networking.dart';
 import 'package:flutter/services.dart';
 import 'location.dart';
 
-const APIkey = 'API KEY';
+const APIkey = 'API KEY'; //699a85d77e6ac23289adcb7a9e53701d
 class WeatherModel {
   Future<dynamic> getCityLocation(String cityName) async {
 
